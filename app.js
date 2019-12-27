@@ -28,12 +28,11 @@ app.get('/users',(req,res)=>{
 })
 
 //const host="192.168.43.109";
-const host="192.168.225.227";
 const server=http.createServer((req,res)=>{
 res.statusCode=200;
 res.setHeader('Content-Type','text/plain');
 })
 
-app.listen(3000,host,()=>{
+app.listen(3000,()=>{
     console.log("Server is up and listening 3000..")
 })
