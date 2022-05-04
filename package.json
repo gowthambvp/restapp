@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "1.7.9",
+    "angular": "1.8.3",
     "end-of-stream": "^1.4.4",
     "express": "^4.17.1",
     "forever": "^1.0.0",
